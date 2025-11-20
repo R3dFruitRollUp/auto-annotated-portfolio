@@ -59,7 +59,8 @@ sections:
     showFeaturedImage: true
     showReadMoreLink: true
     variant: variant-b
-    projects: []
+    projects:
+      - content/pages/projects/NFL.md
     styles:
       self:
         height: auto
