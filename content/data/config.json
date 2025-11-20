@@ -95,7 +95,7 @@
                 "label": "Instagram",
                 "altText": "Art and Life of Alexander",
                 "url": "https://www.instagram.com/aglizzle",
-                "showIcon": false,
+                "showIcon": true,
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "elementId": ""
