@@ -29,14 +29,14 @@
                 "type": "Social",
                 "altText": "Twitter",
                 "label": "Twitter",
-                "url": "https://twitter.com/netlify",
+                "url": "https://twitter.com/datos-extremos",
                 "icon": "twitter"
             },
             {
                 "type": "Social",
                 "altText": "GitHub",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
+                "url": "https://github.com/R3dFruitRollUp",
                 "icon": "github"
             }
         ],
