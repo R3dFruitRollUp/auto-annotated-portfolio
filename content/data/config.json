@@ -60,7 +60,8 @@
                 "type": "Link",
                 "label": "Contact",
                 "url": "mailto:floydg@umich.edu",
-                "altText": ""
+                "altText": "",
+                "icon": "mail"
             },
             {
                 "type": "Link",
