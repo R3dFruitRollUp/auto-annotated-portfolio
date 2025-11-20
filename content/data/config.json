@@ -82,7 +82,7 @@
                 "altText": "Linkedin",
                 "url": "https://www.linkedin.com/in/alexanderglenn/",
                 "showIcon": false,
-                "icon": "arrowRight",
+                "icon": "linkedin",
                 "iconPosition": "left",
                 "style": "secondary",
                 "elementId": ""
