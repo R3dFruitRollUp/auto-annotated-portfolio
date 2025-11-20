@@ -27,7 +27,7 @@ sections:
       type: ImageBlock
       url: /images/1761322480544.jpeg
       altText: Image of Alexander Floyd Glenn
-      caption: Caption of the image
+      caption: Ai generated Content
       elementId: ''
     colors: colors-f
     backgroundSize: full
