@@ -61,7 +61,8 @@
                 "label": "Contact",
                 "url": "mailto:floydg@umich.edu",
                 "altText": "",
-                "icon": "mail"
+                "icon": "mail",
+                "showIcon": false
             },
             {
                 "type": "Link",
