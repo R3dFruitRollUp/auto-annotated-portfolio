@@ -89,27 +89,13 @@ author: content/data/team/Alexander-Floyd-Glenn.json
 ---
 Most of the analytics world secretly runs on Excel.
 
-
-
-
 Even in companies with fancy data warehouses, cloud platforms, and BI tools like Tableau or Power BI, the real work often starts (and sometimes ends) in a spreadsheet tab called something like:
 
-
-
-
-> Copy of FINAL_v3_approved_use_this_one.xlsx
-
-
-
+> Copy of FINAL\_v3\_approved\_use\_this\_one.xlsx
 
 The problem isn’t Excel itself. The problem is *how* we use it.
 
-
-
-
 If your workbook is full of merged cells, blank rows, custom colors, and one-off formulas, then you don’t have a dataset—you have a decorated report. Looks great in a printout. Breaks immediately the moment you try to:
-
-
 
 *   Build a PivotTable
 
@@ -119,80 +105,50 @@ If your workbook is full of merged cells, blank rows, custom colors, and one-off
 
 *   Connect it to Tableau or another BI tool
 
-
-
-
-
-
 This post is about fixing that.
-
-
-
 
 I’ll walk through how to design Excel tables like a real data source—simple rules that make your life easier today *and* make it painless to upgrade to SQL, Power Query, Power Pivot, or Tableau later.
 
-
-
-
-
-
-
-
-
 ## The Big Shift: From “Pretty Report” to “Analytical Table”
-
-
-
-
-
 
 Before you start formatting cells, ask this question:
 
-
-
-
 > “Am I designing this to look good on screen, or to be reliable input to analysis and dashboards?”
-
-
-
 
 Those are two very different goals.
 
+The "Pretty Table" Mindset:
 
+*   Sections with headings inside the grid
 
-*   Pretty report mindset:
+*   Blank rows for spacing
 
+*   Merged cells to make everything “line up”
 
+*   Subtotals and grand totals baked into the data
 
-    *   Sections with headings inside the grid
+The "Analytical Data" Mindset:
 
-    *   Blank rows for spacing
+*   One continuous block of data
 
-    *   Merged cells to make everything “line up”
+*   No structural blanks, no merged cells
 
-    *   Subtotals and grand totals baked into the data
+*   Each row = one record
 
-    *
+*   Each column = one field
 
-    *
+*   Totals and summaries are built on top (PivotTables, formulas, dashboards), not baked in
 
-    Analytical table mindset:
+<!---->
 
-*
 
 
 
 You can still make things pretty in a *separate* sheet. But the foundation has to be a clean, well-structured table.
 
-
-
 ## What a “Good” Excel Table Looks Like
 
-
-
 Let’s define a clean data table in Excel. If you only follow this section, you’re already ahead of most workbooks in the wild.
-
-
 
 ### 1. One Header Row, One Data Block
 
@@ -208,17 +164,13 @@ Your dataset should be a single uninterrupted rectangle:
 
 *   No blank rows or columns inside the table
 
-
-
 Good:
-
 
 | Date     | Region | Product  | Units | Revenue |
 | -------- | ------ | -------- | ----- | ------- |
 | 1/1/2025 | East   | Widget A | 10    | 1200    |
 | 1/1/2025 | East   | Widget B | 5     | 650     |
 | 1/1/2025 | West   | Widget A | 3     | 360     |
-
 
 Bad (and very common):
 
@@ -227,8 +179,6 @@ Bad (and very common):
 *   A total line at the bottom of each month inside the data
 
 *   A header row repeated halfway down the table
-
-
 
 Those extra rows might help your eyes, but they’ll wreck:
 
@@ -244,11 +194,7 @@ Those extra rows might help your eyes, but they’ll wreck:
 
 If you want readability, keep the core data in a dedicated sheet like Data\_Sales, and build your pretty report on top of it in Report\_Sales.
 
-
-
 ### 2. Use “Format as Table” (Structured Tables)
-
-
 
 Once your data block is clean:
 
@@ -257,7 +203,6 @@ Once your data block is clean:
 2.  Press Ctrl + T (or Home → Format as Table).
 
 3.  Confirm “My table has headers.”
-
 
 Why this matters:
 
@@ -269,8 +214,6 @@ Why this matters:
 
 *   Power Query, Power Pivot, and BI tools love these tables.
 
-
-
 Give your table a meaningful name in Table Design → Table Name, like:
 
 *   Sales\_Fact
@@ -281,11 +224,7 @@ Give your table a meaningful name in Table Design → Table Name, like:
 
 This is the first step to treating Excel as a mini-database.
 
-
-
 ### 3. One Field Per Column, One Meaning Per Field
-
-
 
 Each column should represent one attribute, and each row should represent one event/record.
 
@@ -321,8 +260,6 @@ If you ever find yourself adding a column like 2025\_Q1\_Sales, that’s a sign 
 
 In proper data modeling, this is the difference between a tidy “long” format (good for analysis) and a wide crosstab format (good only for presentation).
 
-
-
 ### 4. Consistent Data Types
 
 Every value in a column should be the same *type* of thing:
@@ -341,7 +278,6 @@ Quick checks:
 
 *   If sums or averages don’t work, you probably have text where numbers should be.
 
-
 You can enforce consistency by:
 
 *   Using Data → Text to Columns for cleanup
@@ -351,8 +287,6 @@ You can enforce consistency by:
 *   Keeping formats simple: dates as dates, currency as standard currency, no exotic custom formats unless needed
 
 Your future self (and every downstream tool) will thank you.
-
-
 
 ### 5. Keep Totals and Subtotals Out of the Detail Table
 
@@ -366,7 +300,6 @@ Avoid:
 
 *   Manually-typed summary rows
 
-
 Instead:
 
 *   Use PivotTables on a new sheet to get all the totals you want.
@@ -379,19 +312,11 @@ Think of it this way:
 
 > The raw table should know nothing about totals. That’s someone else’s job.
 
-
-
 ## The Anti-Patterns That Break Everything Downstream
-
-
 
 Let’s name and shame a few patterns that seem harmless in Excel but are poison for analytics.
 
-
-
 ### Anti-Pattern 1: Multiple “Sections” Stacked on One Sheet
-
-
 
 Example:
 
@@ -411,25 +336,17 @@ Fix:
 
 *   Or, better, *normalize* them into one long table with fields for Region, Channel, Product, etc.
 
-
-
 ### Anti-Pattern 2: Month Across Columns (Crosstab Hell)
 
-
-
 Example:
-
 
 | Product | Jan | Feb | Mar | Apr |
 | ------- | --- | --- | --- | --- |
 | A       | 100 | 120 | 130 | 140 |
 | B       | 80  | 90  | 95  | 100 |
 
-
-
 This is tempting for manual reporting, but bad for scaling and BI.
 Instead, a better analytics table looks like:
-
 
 | Product  | Month    | Revenue |
 | -------- | -------- | ------- |
@@ -442,7 +359,6 @@ Instead, a better analytics table looks like:
 | Widget B | 3/1/2025 | 95      |
 | Widget B | 4/1/2025 | 100     |
 
-
 Now:
 
 *   You can easily add more months without changing the table structure.
@@ -453,11 +369,7 @@ Now:
 
 (And if you already have the crosstab? Power Query’s Unpivot is your best friend.)
 
-
-
 ### Anti-Pattern 3: Formatting as Data
-
-
 
 Common traps:
 
@@ -481,16 +393,11 @@ Rule of thumb:
 
 Formatting is just decoration. The *meaning* belongs in fields.
 
-
-
 ## PivotTables as a Sanity Test
-
-
 
 Here’s an easy way to check if your data structure is solid:
 
 > Build a PivotTable from your table.
-
 
 If building a PivotTable feels easy and intuitive:
 
@@ -518,15 +425,11 @@ A workable rule:
 
 > If a PivotTable hates your data, your BI tools will hate it more.
 
-
-
 ## Separating “Data Sheets” from “Report Sheets”
 
 One of the best habits you can adopt is a two-layer workbook:
 
 1.  Data Layer
-
-
 
     *   One or more clean tables
 
@@ -536,19 +439,13 @@ One of the best habits you can adopt is a two-layer workbook:
 
     *   Tables named and documented (Sales\_Fact, Dim\_Customer, etc.)
 
-
-
 2.  Report Layer
-
-
 
     *   PivotTables, charts, and formatted views
 
     *   Conditional formatting, merged cells, titles, callouts
 
     *   This is where you make it pretty for humans.
-
-
 
 You might have:
 
@@ -568,11 +465,7 @@ This structure mirrors how real BI systems are built:
 
 Once you think this way in Excel, moving into SQL, Power Query, Power Pivot, or Tableau later feels much more natural.
 
-
-
 ## Why This Matters for Tableau, SQL, and Real BI
-
-
 
 You might be thinking:
 
@@ -598,8 +491,6 @@ Messy Excel:
 
 *   Makes it harder to trust any dashboard built on top.
 
-
-
 Clean structure is leverage. It’s the bridge between “I have a spreadsheet” and “I have a repeatable BI solution.”
 
 ## Quick Checklist: Is Your Excel Table Ready for BI?
@@ -623,9 +514,3 @@ Use this before you build *anything* on top of your data:
 8.  PivotTable works cleanly without awkward manual range selection
 
 If you check most of these boxes, you’re not just “using Excel”—you’re designing a data source.
-
-
-
-
-
-
