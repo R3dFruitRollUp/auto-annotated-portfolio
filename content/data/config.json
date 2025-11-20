@@ -62,7 +62,7 @@
                 "url": "mailto:floydg@umich.edu",
                 "altText": "",
                 "icon": "mail",
-                "showIcon": false
+                "showIcon": true
             },
             {
                 "type": "Link",
