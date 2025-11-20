@@ -79,7 +79,7 @@
             {
                 "type": "Button",
                 "label": "Linkedin",
-                "altText": "",
+                "altText": "Linkedin",
                 "url": "https://www.linkedin.com/in/alexanderglenn/",
                 "showIcon": false,
                 "icon": "arrowRight",
