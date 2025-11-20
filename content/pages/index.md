@@ -100,7 +100,7 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Rawr \U0001F996.. Share your thoughts please! \U0001F4AC"
+    title: "Rawr \U0001F996"
     form:
       type: FormBlock
       elementId: sign-up-form
@@ -158,4 +158,5 @@ sections:
           - pl-4
         flexDirection: row
         textAlign: left
+    text: "Share your thoughts please! \U0001F4AC\n"
 ---
