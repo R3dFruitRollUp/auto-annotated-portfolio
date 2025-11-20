@@ -87,15 +87,15 @@ bottomSections:
         textAlign: left
 author: content/data/team/Alexander-Floyd-Glenn.json
 ---
-Most of the analytics world secretly runs on Excel.
+##### **Most of the analytics world secretly runs on Excel.**
 
 Even in companies with fancy data warehouses, cloud platforms, and BI tools like Tableau or Power BI, the real work often starts (and sometimes ends) in a spreadsheet tab called something like:
 
 > Copy of FINAL\_v3\_approved\_use\_this\_one.xlsx
 
-The problem isn’t Excel itself. The problem is *how* we use it.
+The problem *isn’t Excel* itself. The problem is *how* we use it.
 
-If your workbook is full of merged cells, blank rows, custom colors, and one-off formulas, then you don’t have a dataset—you have a decorated report. Looks great in a printout. Breaks immediately the moment you try to:
+If your workbook is full of merged cells, blank rows, custom colors, and one-off formulas, then you don’t have a dataset... you have a decorated report. Looks great in a printout. Breaks immediately the moment you try to:
 
 *   Build a PivotTable
 
@@ -107,7 +107,7 @@ If your workbook is full of merged cells, blank rows, custom colors, and one-off
 
 This post is about fixing that.
 
-I’ll walk through how to design Excel tables like a real data source—simple rules that make your life easier today *and* make it painless to upgrade to SQL, Power Query, Power Pivot, or Tableau later.
+I’ll walk through how to design Excel tables like a real data source. Providing simple rules that make your life easier today *and* make it painless to upgrade to SQL, Power Query, Power Pivot, or Tableau later.
 
 ## The Big Shift: From “Pretty Report” to “Analytical Table”
 
@@ -138,11 +138,6 @@ The "Analytical Data" Mindset:
 *   Each column = one field
 
 *   Totals and summaries are built on top (PivotTables, formulas, dashboards), not baked in
-
-<!---->
-
-
-
 
 You can still make things pretty in a *separate* sheet. But the foundation has to be a clean, well-structured table.
 
