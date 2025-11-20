@@ -68,7 +68,7 @@
                 "label": "Blog",
                 "url": "/blog",
                 "altText": "",
-                "showIcon": false,
+                "showIcon": true,
                 "icon": "send"
             },
             {
