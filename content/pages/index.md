@@ -84,7 +84,8 @@ sections:
       - type: Link
         label: See all posts
         url: /blog
-    posts: []
+    posts:
+      - content/pages/blog/stop-fighting-your-spreadsheets.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
