@@ -72,7 +72,8 @@
                 "type": "Link",
                 "label": "GitHub",
                 "url": "https://github.com/R3dFruitRollUp",
-                "altText": "Github Link"
+                "altText": "Github Link",
+                "showIcon": true
             }
         ],
         "contacts": {
