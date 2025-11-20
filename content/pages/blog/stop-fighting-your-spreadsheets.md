@@ -4,7 +4,9 @@ title: >-
   Stop Fighting Your Spreadsheets: How to Structure Excel Like a Real Data
   Source
 date: '2025-11-20'
-excerpt: ''
+excerpt: >-
+  Learn how to structure Excel like a real data source: clean tables, consistent
+  types, and Pivot-ready layouts that scale to SQL, Power Query, and Tableau.
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
