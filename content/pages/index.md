@@ -14,7 +14,7 @@ sections:
     colors: colors-b
     backgroundSize: full
     title: Business Intelligence for Modern Lending
-    subtitle: ''
+    subtitle: Business Intelligence for Modern Lending
     styles:
       self:
         height: auto
