@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: "Stop Fighting Your Spreadsheets: How to Structure Excel Like a Real Data Source \U0001F680"
+title: "How to Structure Excel Like a Real Data Source \U0001F680"
 colors: colors-a
 date: '2021-06-28'
 author: content/data/team/doris-soto.json
