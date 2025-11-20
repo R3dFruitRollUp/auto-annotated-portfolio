@@ -45,7 +45,12 @@ sections:
       consumer lending, and large-scale contact-center operations.My work 
       showcases how that interdisciplinary, consultative solutions engineering
       approach transfers across domains.. From lending and risk to call center
-      science, workforce management, and broader enterprise operations.</div>
+      science, workforce management, and broader enterprise operations. My work
+      supports thousands of agents across multiple countries and is grounded in
+      experience inside a super-regional S\&P 500 bank that has grown its
+      balance sheet from roughly $120B in assets in 2020 to over $200B by 2024,
+      with announced acquisitions positioning it around $276B in assets.
+      Expanding its footprint across more than 20 states.  ￼</div>
 
   - colors: colors-b
     type: FeaturedProjectsSection
