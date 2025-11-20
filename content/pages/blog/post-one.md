@@ -3,7 +3,6 @@ type: PostLayout
 title: "How to Structure Excel Like a Real Data Source \U0001F680"
 colors: colors-a
 date: '2021-06-28'
-author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
