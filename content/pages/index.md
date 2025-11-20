@@ -84,8 +84,7 @@ sections:
       - type: Link
         label: See all posts
         url: /blog
-    posts:
-      - content/pages/blog/post-three.md
+    posts: []
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
