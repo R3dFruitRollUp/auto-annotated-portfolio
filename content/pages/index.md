@@ -13,7 +13,7 @@ sections:
   - elementId: ''
     colors: colors-b
     backgroundSize: full
-    title: Business Intelligence for Modern Lending
+    title: ALEXANDER FLOYD GLENN
     subtitle: Business Intelligence for Modern Lending
     styles:
       self:
