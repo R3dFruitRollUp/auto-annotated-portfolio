@@ -26,7 +26,7 @@ sections:
     media:
       type: ImageBlock
       url: /images/1761322480544.jpeg
-      altText: Hero image
+      altText: Image of Alexander Floyd Glenn
       caption: Caption of the image
       elementId: ''
     colors: colors-f
