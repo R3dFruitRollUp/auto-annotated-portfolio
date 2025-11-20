@@ -53,36 +53,73 @@
                 "type": "Link",
                 "label": "Info",
                 "url": "/info",
-                "altText": ""
+                "altText": "",
+                "showIcon": false
             },
             {
                 "type": "Link",
                 "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
+                "url": "mailto:floydg@umich.edu",
+                "altText": "",
+                "icon": "mail",
+                "showIcon": true
             },
             {
                 "type": "Link",
                 "label": "Blog",
                 "url": "/blog",
-                "altText": ""
+                "altText": "",
+                "showIcon": true,
+                "icon": "send"
             },
             {
                 "type": "Link",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
+                "url": "https://github.com/R3dFruitRollUp",
+                "altText": "Github Link",
+                "showIcon": true,
+                "icon": "github"
+            },
+            {
+                "type": "Link",
+                "label": "Linkedin",
+                "altText": "",
+                "url": "https://www.linkedin.com/in/alexanderglenn",
+                "showIcon": true,
+                "icon": "linkedin",
+                "iconPosition": "right",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Instagram",
+                "altText": "Art and Life of Alexander",
+                "url": "https://www.instagram.com/aglizzle",
+                "showIcon": true,
+                "icon": "instagram",
+                "iconPosition": "right",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Facebook",
+                "altText": "",
+                "url": "https://www.facebook.com/aglizzle/",
+                "showIcon": true,
+                "icon": "facebook",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
+            "phoneNumber": "810-869-2012",
             "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
+            "email": "floydg@umich.edu",
             "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
+            "address": "",
+            "addressAltText": ""
         },
         "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
         "styles": {

@@ -1,0 +1,14 @@
+{
+    "type": "Person",
+    "firstName": "Alexander",
+    "lastName": "Floyd Glenn",
+    "role": "Role",
+    "bio": "With over 10 years in both public and private sectors, Johnna has experience in management consultation, team building, professional development, strategic implementation, and company collaboration.",
+    "image": {
+        "type": "ImageBlock",
+        "url": "/images/IMG_3443.jpeg",
+        "altText": "Picture of Alexander Floyd Glenn a leader in Business Intelligence Solutions Engineer",
+        "caption": "Alexander Floyd Glenn is a leader in Business Intelligence Solutions Engineer",
+        "elementId": ""
+    }
+}
