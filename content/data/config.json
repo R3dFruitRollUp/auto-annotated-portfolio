@@ -75,17 +75,6 @@
                 "altText": "Github Link",
                 "showIcon": true,
                 "icon": "github"
-            },
-            {
-                "type": "Button",
-                "label": "Linkedin",
-                "altText": "Linkedin",
-                "url": "https://www.linkedin.com/in/alexanderglenn/",
-                "showIcon": false,
-                "icon": "linkedin",
-                "iconPosition": "left",
-                "style": "secondary",
-                "elementId": ""
             }
         ],
         "contacts": {
