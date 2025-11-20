@@ -14,12 +14,7 @@ sections:
     colors: colors-b
     backgroundSize: full
     title: Business Intelligence for Modern Lending
-    subtitle: >-
-      My work supports thousands of agents across multiple countries and is
-      grounded in experience inside a super-regional S&P 500 bank that has grown
-      its balance sheet from roughly $120B in assets in 2020 to over $200B by
-      2024, with announced acquisitions positioning it around $276B in assets.
-      Expanding its footprint across more than 20 states.  ￼
+    subtitle: ''
     styles:
       self:
         height: auto
