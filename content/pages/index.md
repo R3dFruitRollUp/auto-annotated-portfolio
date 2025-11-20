@@ -11,15 +11,10 @@ backgroundImage:
   opacity: 75
 sections:
   - elementId: ''
-    colors: colors-f
+    colors: colors-b
     backgroundSize: full
-    title: Business Intelligence for Modern Lending
-    subtitle: >-
-      My work supports thousands of agents across multiple countries and is
-      grounded in experience inside a super-regional S&P 500 bank that has grown
-      its balance sheet from roughly $120B in assets in 2020 to over $200B by
-      2024, with announced acquisitions positioning it around $276B in assets.
-      Expanding its footprint across more than 20 states.  ￼
+    title: ALEXANDER FLOYD GLENN
+    subtitle: Business Intelligence & AI Solutions Engineer
     styles:
       self:
         height: auto
@@ -39,15 +34,20 @@ sections:
     type: HeroSection
     actions: []
     text: >+
-      <div style="text-align: left">I’m Alexander Floyd Glenn, an end-to-end BI
-      and call center analytics engineer designing Tableau dashboards, SQL and
-      Python data models, ETL pipelines, and AI-driven experiments for mortgage,
-      consumer lending, and large-scale contact-center operations.My work 
-      showcases how that interdisciplinary, consultative solutions engineering
-      approach transfers across domains.. From lending and risk to call center
-      science, workforce management, and broader enterprise operations.</div>
+      <div style="text-align: left">I am an end-to-end data and analytics
+      engineer designing Tableau dashboards, SQL and Python data models, ETL
+      pipelines, and AI-driven experiments for mortgage, consumer lending, and
+      large-scale contact-center operations.My work  showcases how that
+      interdisciplinary, consultative solutions engineering approach transfers
+      across domains.. From lending and risk to call center science, workforce
+      management, and broader enterprise operations. My work supports thousands
+      of agents across multiple countries and is grounded in experience inside a
+      super-regional S\&P 500 bank that has grown its balance sheet from roughly
+      $120B in assets in 2020 to over $200B by 2024, with announced acquisitions
+      positioning it around $276B in assets. Expanding its footprint across more
+      than 20 states.  ￼</div>
 
-  - colors: colors-f
+  - colors: colors-b
     type: FeaturedProjectsSection
     elementId: ''
     actions:
@@ -60,9 +60,7 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
+      - content/pages/projects/NFL.md
     styles:
       self:
         height: auto
@@ -85,9 +83,7 @@ sections:
         label: See all posts
         url: /blog
     posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
+      - content/pages/blog/stop-fighting-your-spreadsheets.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
@@ -104,7 +100,7 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: "Rawr \U0001F996"
     form:
       type: FormBlock
       elementId: sign-up-form
@@ -162,4 +158,5 @@ sections:
           - pl-4
         flexDirection: row
         textAlign: left
+    text: "Share your thoughts please! \U0001F4AC\n"
 ---
