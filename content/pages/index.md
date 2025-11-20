@@ -11,7 +11,7 @@ backgroundImage:
   opacity: 75
 sections:
   - elementId: ''
-    colors: colors-b
+    colors: colors-f
     backgroundSize: full
     title: ALEXANDER FLOYD GLENN
     subtitle: Business Intelligence & AI Solutions Engineer
@@ -47,7 +47,7 @@ sections:
       positioning it around $276B in assets. Expanding its footprint across more
       than 20 states.  ￼</div>
 
-  - colors: colors-b
+  - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
     actions:
