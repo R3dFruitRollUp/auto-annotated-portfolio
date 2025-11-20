@@ -14,7 +14,7 @@ sections:
     colors: colors-b
     backgroundSize: full
     title: ALEXANDER FLOYD GLENN
-    subtitle: Business Intelligence for Modern Lending
+    subtitle: Business Intelligence & AI Solutions Engineer
     styles:
       self:
         height: auto
