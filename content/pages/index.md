@@ -10,43 +10,51 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 75
 sections:
-  - elementId: ''
+  - type: HeroSection
+    title: Alexander Floyd Glenn
+    subtitle: Business Intelligence & AI Solutions Engineer
+    actions:
+      - type: Button
+        label: Hire me
+        altText: ''
+        url: /
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+    media:
+      type: ImageBlock
+      url: /images/IMG_3443.jpeg
+      altText: Hero image
+      caption: Caption of the image
+      elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: ALEXANDER FLOYD GLENN
-    subtitle: Business Intelligence & AI Solutions Engineer
+    elementId: ''
     styles:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
           - pt-36
           - pb-48
           - pl-4
           - pr-4
-        flexDirection: row-reverse
+        flexDirection: row
         textAlign: left
-    type: HeroSection
-    actions: []
-    text: >+
-      <div style="text-align: left">I am an end-to-end data and analytics
-      engineer designing Tableau dashboards, SQL and Python data models, ETL
-      pipelines, and AI-driven experiments for mortgage, consumer lending, and
-      large-scale contact-center operations.My work  showcases how that
-      interdisciplinary, consultative solutions engineering approach transfers
-      across domains.. From lending and risk to call center science, workforce
-      management, and broader enterprise operations. My work supports thousands
-      of agents across multiple countries and is grounded in experience inside a
-      super-regional S\&P 500 bank that has grown its balance sheet from roughly
-      $120B in assets in 2020 to over $200B by 2024, with announced acquisitions
-      positioning it around $276B in assets. Expanding its footprint across more
-      than 20 states.  ￼</div>
-
+    text: >
+      I am an end-to-end data and analytics engineer designing Tableau
+      dashboards, SQL and Python data models, ETL pipelines, and AI-driven
+      experiments for mortgage, consumer lending, and large-scale contact-center
+      operations.My work  showcases how that interdisciplinary, consultative
+      solutions engineering approach transfers across domains.. From lending and
+      risk to call center science, workforce management, and broader enterprise
+      operations. My work supports thousands of agents across multiple countries
+      and is grounded in experience inside a super-regional S\&P 500 bank that
+      has grown its balance sheet from roughly $120B in assets in 2020 to over
+      $200B by 2024, with announced acquisitions positioning it around $276B in
+      assets. Expanding its footprint across more than 20 states.  ￼
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
