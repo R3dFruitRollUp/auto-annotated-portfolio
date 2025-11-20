@@ -47,7 +47,7 @@ sections:
       approach transfers across domains.. From lending and risk to call center
       science, workforce management, and broader enterprise operations.</div>
 
-  - colors: colors-f
+  - colors: colors-a
     type: FeaturedProjectsSection
     elementId: ''
     actions:
