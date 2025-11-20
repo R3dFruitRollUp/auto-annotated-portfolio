@@ -38,6 +38,15 @@ sections:
         textAlign: left
     type: HeroSection
     actions: []
+    text: >+
+      <div style="text-align: left">I’m Alexander Floyd Glenn, an end-to-end BI
+      and call center analytics engineer designing Tableau dashboards, SQL and
+      Python data models, ETL pipelines, and AI-driven experiments for mortgage,
+      consumer lending, and large-scale contact-center operations.My work 
+      showcases how that interdisciplinary, consultative solutions engineering
+      approach transfers across domains.. From lending and risk to call center
+      science, workforce management, and broader enterprise operations.</div>
+
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
