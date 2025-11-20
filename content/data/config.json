@@ -105,7 +105,7 @@
                 "label": "Facebook",
                 "altText": "",
                 "url": "https://www.facebook.com/aglizzle/",
-                "showIcon": false,
+                "showIcon": true,
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "elementId": ""
