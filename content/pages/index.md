@@ -13,16 +13,7 @@ sections:
   - type: HeroSection
     title: Alexander Floyd Glenn
     subtitle: Business Intelligence & AI Solutions Engineer
-    actions:
-      - type: Button
-        label: Hire me
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
+    actions: []
     media:
       type: ImageBlock
       url: /images/1761322480544.jpeg
