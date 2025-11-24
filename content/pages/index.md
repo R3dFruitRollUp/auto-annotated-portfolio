@@ -63,6 +63,31 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
+  - colors: colors-f
+    type: FeaturedProjectsSection
+    elementId: ''
+    actions:
+      - type: Link
+        label: See all projects
+        url: /projects
+    showDate: false
+    showDescription: true
+    showFeaturedImage: true
+    showReadMoreLink: true
+    variant: variant-b
+    projects:
+      - content/pages/projects/NFL.md
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        textAlign: left
+    subtitle: Projects
   - type: LabelsSection
     title: My Skills
     subtitle: ''
@@ -103,31 +128,6 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
-  - colors: colors-f
-    type: FeaturedProjectsSection
-    elementId: ''
-    actions:
-      - type: Link
-        label: See all projects
-        url: /projects
-    showDate: false
-    showDescription: true
-    showFeaturedImage: true
-    showReadMoreLink: true
-    variant: variant-b
-    projects:
-      - content/pages/projects/NFL.md
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-24
-          - pb-24
-          - pl-4
-          - pr-4
-        textAlign: left
-    subtitle: Projects
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
