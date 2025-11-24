@@ -65,7 +65,7 @@ sections:
         textAlign: left
   - type: LabelsSection
     title: My Skills
-    subtitle: The section subtitle
+    subtitle: ''
     items:
       - type: Label
         label: 'WEB 1, 2, 3'
