@@ -36,7 +36,7 @@ sections:
         textAlign: left
     text: ''
   - type: TextSection
-    title: The Section Title
+    title: My
     subtitle: Experience
     text: >
       I am an end-to-end data and analytics engineer designing Tableau
