@@ -37,7 +37,7 @@ sections:
     text: ''
   - type: TextSection
     title: The Section Title
-    subtitle: The section subtitle
+    subtitle: Experience
     text: >
       I am an end-to-end data and analytics engineer designing Tableau
       dashboards, SQL and Python data models, ETL pipelines, and AI-driven
