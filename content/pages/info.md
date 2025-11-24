@@ -13,8 +13,69 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: |+
-      #
+    text: >+
+      Alexander Floyd Glenn is a Business Intelligence Solutions Engineer who
+      lives at the intersection of bank-scale data, AI, and human stories. He
+      grew up inside the real world of lending and credit—not just the
+      spreadsheets about it—working across sales floors, call centers, and
+      operations before moving into BI engineering for a national bank. That
+      path means he doesn’t just see rows and columns; he sees quotas,
+      regulatory exams, servicing headaches, and the very human pressure around
+      approvals, denials, and growth targets. When he writes or builds an
+      analytic, he’s thinking about the person who has to rely on it at 8:00
+      a.m. on a Monday.
+
+
+      As an author, Alexander focuses on the modern BI stack as it actually
+      shows up in the field: messy operational data, high-stakes decisions, and
+      teams under pressure. He writes about data modeling and SQL, Tableau and
+      Power BI, Excel/Power Query/DAX, and the growing role of AI in analytics.
+      His work moves from raw schemas and pipelines, into time-intelligence and
+      credit-risk measures, and finally into dashboards, scorecards, and
+      workflows that leaders actually use. The throughline is practical: clear
+      patterns, reusable designs, and honest post-mortems from BI projects in
+      lending, call-center science, and consumer finance.
+
+
+      Because he started on the business side, Alexander is comfortable sitting
+      down with stakeholders, asking “why” until the real problem surfaces, and
+      then translating that into data models, semantic layers, and reporting
+      systems. He thinks in systems: pipelines, governance, and security on one
+      side; behavior, incentives, and adoption on the other. In both his
+      engineering work and his writing, he’s drawn to the full
+      lifecycle—requirements, modeling, build, rollout, and enablement—and to
+      being the person who can talk architecture with IT and plain language with
+      a frontline manager in the same afternoon.
+
+
+      Outside banking and BI, Alexander serves on the board of a nonprofit art
+      gallery in Flint, Michigan. That work keeps him close to design,
+      community, and storytelling, and it heavily influences how he approaches
+      data products on the page and on the screen. Whether he’s curating a
+      gallery show or a dashboard layout, he cares about how information feels:
+      intuitive, visually clear, and honest about uncertainty and tradeoffs. His
+      writing often weaves those worlds together—analytics, design, and lived
+      experience—into case studies and essays about how data can support real
+      people instead of overwhelming them.
+
+
+      Alexander is actively open to contract, consulting, and full-time
+      opportunities where he can help shape or own the BI stack: standing up
+      analytics for growing companies, modernizing reporting for established
+      organizations, or building specialized dashboards and data products for
+      specific teams. He’s based in Michigan, fully comfortable with remote
+      work, and happy to travel on-site for discovery workshops, stakeholder
+      interviews, whiteboard sessions, and go-live support.
+
+
+      On this site, you’ll find his portfolio of dashboards, models, and
+      articles—an evolving library of patterns, hard-won lessons, and
+      experiments at the edge of BI and AI. If you’re looking for someone who
+      can bridge business and data, design and engineering, and you want
+      analytics that people actually use, you can reach him through the contact
+      form on this site or connect with him on LinkedIn.
+
+
 
     media:
       type: ImageBlock
