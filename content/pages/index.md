@@ -93,9 +93,6 @@ sections:
     subtitle: ''
     items:
       - type: Label
-        label: React
-        url: ''
-      - type: Label
         label: Netlify
         url: ''
       - type: Label
