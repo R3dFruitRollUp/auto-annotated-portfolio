@@ -3,8 +3,9 @@ type: PostLayout
 title: Finding A Little Peace In Not Knowing
 date: '2025-12-01'
 excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+  For most of my life, I thought the goal was to know everything: what my
+  partner is thinking, what my boss wants, how the money will work out. This is
+  about the peace I've found in admitting I don't. 
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
