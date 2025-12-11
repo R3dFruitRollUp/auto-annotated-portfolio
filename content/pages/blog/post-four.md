@@ -10,27 +10,6 @@ featuredImage:
   url: /images/featured-Image4.jpg
   altText: Post thumbnail image
 bottomSections:
-  - elementId: ''
-    type: RecentPostsSection
-    colors: colors-f
-    variant: variant-d
-    subtitle: Recent posts
-    showDate: true
-    showAuthor: false
-    showExcerpt: true
-    recentCount: 2
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-12
-          - pb-56
-          - pr-4
-          - pl-4
-        textAlign: left
-    showFeaturedImage: true
-    showReadMoreLink: true
   - type: MediaGallerySection
     title: Gallery
     subtitle: This is the subtitle
@@ -72,6 +51,27 @@ bottomSections:
           - pl-4
           - pr-4
         textAlign: center
+  - elementId: ''
+    type: RecentPostsSection
+    colors: colors-f
+    variant: variant-d
+    subtitle: Recent posts
+    showDate: true
+    showAuthor: false
+    showExcerpt: true
+    recentCount: 2
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-12
+          - pb-56
+          - pr-4
+          - pl-4
+        textAlign: left
+    showFeaturedImage: true
+    showReadMoreLink: true
   - type: ContactSection
     backgroundSize: full
     title: Stay up-to-date with my words ✍️
