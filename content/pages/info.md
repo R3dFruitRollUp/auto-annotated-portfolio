@@ -205,6 +205,9 @@ sections:
       - type: Label
         label: Forecasting
         url: ''
+      - type: Label
+        label: AI
+        url: ''
   - type: DividerSection
     styles:
       self:
