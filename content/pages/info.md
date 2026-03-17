@@ -266,7 +266,7 @@ sections:
         borderStyle: solid
   - type: TextSection
     variant: variant-a
-    subtitle: Contact me via email ->
+    subtitle: Alexander Floyd Glenn
     colors: colors-f
     text: |+
       #### [**Floydg@umich.edu**](mailto:floydg@umich.edu)
