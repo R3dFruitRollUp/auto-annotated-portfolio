@@ -209,7 +209,7 @@ sections:
         label: Cursor IDE
         url: ''
       - type: Label
-        label: AI
+        label: Schema Design
         url: ''
   - type: DividerSection
     styles:
