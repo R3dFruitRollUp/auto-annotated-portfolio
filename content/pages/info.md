@@ -340,7 +340,7 @@ sections:
             textAlign: left
         actions:
           - type: Button
-            label: Learn more
+            label: Linktree
             altText: ''
             url: 'https://linktr.ee/AlexanderFloydGlenn'
             showIcon: false
