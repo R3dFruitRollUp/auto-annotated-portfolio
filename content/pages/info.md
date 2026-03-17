@@ -206,6 +206,9 @@ sections:
         label: Forecasting
         url: ''
       - type: Label
+        label: Cursor IDE
+        url: ''
+      - type: Label
         label: AI
         url: ''
   - type: DividerSection
