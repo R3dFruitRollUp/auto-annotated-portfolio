@@ -340,7 +340,7 @@ sections:
             textAlign: left
         actions:
           - type: Button
-            label: Linktree
+            label: "Click for linktree \U0001F334"
             altText: ''
             url: 'https://linktr.ee/AlexanderFloydGlenn'
             showIcon: false
