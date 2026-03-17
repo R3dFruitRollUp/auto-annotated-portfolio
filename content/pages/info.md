@@ -158,30 +158,6 @@ sections:
           - pr-4
         borderWidth: 1
         borderStyle: solid
-  - type: FeaturedItemsSection
-    subtitle: 'You can find me here:'
-    colors: colors-f
-    items:
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: "Linktree!\U0001F334\U0001F937‍♂️"
-            url: 'https://linktr.ee/AlexanderFloydGlenn'
-        styles:
-          self:
-            textAlign: left
-    columns: 3
-    spacingX: 120
-    spacingY: 16
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
   - type: DividerSection
     styles:
       self:
