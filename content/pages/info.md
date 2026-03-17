@@ -344,7 +344,7 @@ sections:
             altText: ''
             url: 'https://linktr.ee/AlexanderFloydGlenn'
             showIcon: true
-            icon: arrowRight
+            icon: chevronRight
             iconPosition: right
             style: primary
             elementId: ''
