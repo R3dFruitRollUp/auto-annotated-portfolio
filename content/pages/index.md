@@ -88,34 +88,6 @@ sections:
           - pr-4
         textAlign: left
     subtitle: Projects
-  - type: LabelsSection
-    title: My Skills
-    subtitle: ''
-    items:
-      - type: Label
-        label: Netlify
-        url: ''
-      - type: Label
-        label: Pancakes
-        url: ''
-      - type: Label
-        label: C++
-        url: ''
-      - type: Label
-        label: Swift
-        url: ''
-    colors: colors-d
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-36
-          - pl-4
-          - pr-4
-        textAlign: left
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
