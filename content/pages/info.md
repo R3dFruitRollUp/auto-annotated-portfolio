@@ -192,6 +192,9 @@ sections:
         label: Microsoft Fabric
         url: >-
           https://www.microsoft.com/en-us/microsoft-fabric/getting-started?ef_id=_k_Cj0KCQjw9-PNBhDfARIsABHN6-3xsADPIgHHfWSgl87rE-H6J7qye2KbqPlgvrxfjWiiMbEeqen7J84aAosDEALw_wcB_k_&OCID=AIDcmmz0ceskf1_SEM__k_Cj0KCQjw9-PNBhDfARIsABHN6-3xsADPIgHHfWSgl87rE-H6J7qye2KbqPlgvrxfjWiiMbEeqen7J84aAosDEALw_wcB_k_&gad_source=1&gad_campaignid=23517720931&gclid=Cj0KCQjw9-PNBhDfARIsABHN6-3xsADPIgHHfWSgl87rE-H6J7qye2KbqPlgvrxfjWiiMbEeqen7J84aAosDEALw_wcB
+      - type: Label
+        label: Snowflake
+        url: ''
   - type: DividerSection
     styles:
       self:
