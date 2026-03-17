@@ -266,7 +266,7 @@ sections:
         borderStyle: solid
   - type: TextSection
     variant: variant-a
-    subtitle: ''
+    subtitle: Contact me via email ->
     colors: colors-f
     text: |+
       #### [**Floydg@umich.edu**](mailto:floydg@umich.edu)
