@@ -175,6 +175,7 @@ sections:
         label: Netlify
       - type: Label
         label: Python
+        url: 'https://www.python.org/'
       - type: Label
         label: C++
       - type: Label
