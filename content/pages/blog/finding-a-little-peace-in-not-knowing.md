@@ -92,8 +92,7 @@ bottomSections:
         icon: arrowRight
         iconPosition: right
         elementId: ''
-    posts:
-      - content/pages/blog/post-three.md
+    posts: []
     colors: colors-f
     variant: variant-b
     elementId: ''
