@@ -56,7 +56,7 @@ sections:
         iconPosition: right
         elementId: ''
   - type: TextSection
-    title: The Section Title
+    title: About me!
     text: >+
       As an author, Alexander focuses on the modern BI stack as it actually
       shows up in the field: messy operational data, high-stakes decisions, and
