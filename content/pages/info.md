@@ -271,6 +271,7 @@ sections:
     text: |+
       #### [**Floydg@umich.edu**](mailto:floydg@umich.edu)
 
+    title: Experience and Education
   - type: DividerSection
     styles:
       self:
