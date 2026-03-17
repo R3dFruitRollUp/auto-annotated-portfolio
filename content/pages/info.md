@@ -178,6 +178,7 @@ sections:
         url: 'https://www.python.org/'
       - type: Label
         label: R
+        url: 'https://www.r-project.org/'
       - type: Label
         label: Swift
   - type: DividerSection
