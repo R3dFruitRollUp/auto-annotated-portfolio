@@ -25,7 +25,39 @@ sections:
       analytic, he’s thinking about the person who has to rely on it at 8:00
       a.m. on a Monday.
 
-
+    media:
+      type: ImageBlock
+      url: /images/IMG_3443.jpeg
+      altText: Hero image
+      caption: Pictured playing pool
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-16
+          - pb-12
+          - pl-4
+          - pr-4
+        textAlign: left
+    type: HeroSection
+    actions:
+      - type: Link
+        label: "LinkTree! \U0001F334"
+        altText: ''
+        url: 'https://linktr.ee/AlexanderFloydGlenn'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
+  - type: TextSection
+    title: 'About me:'
+    text: >+
       As an author, Alexander focuses on the modern BI stack as it actually
       shows up in the field: messy operational data, high-stakes decisions, and
       teams under pressure. He writes about data modeling and SQL, Tableau and
@@ -77,35 +109,19 @@ sections:
 
 
 
-    media:
-      type: ImageBlock
-      url: /images/IMG_3443.jpeg
-      altText: Hero image
+    colors: colors-f
+    variant: variant-a
+    elementId: ''
     styles:
       self:
         height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
+        width: narrow
         padding:
-          - pt-16
-          - pb-12
+          - pt-28
+          - pb-28
           - pl-4
           - pr-4
         textAlign: left
-    type: HeroSection
-    actions:
-      - type: Link
-        label: "LinkTree! \U0001F334"
-        altText: ''
-        url: 'https://linktr.ee/AlexanderFloydGlenn'
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        elementId: ''
   - type: DividerSection
     styles:
       self:
