@@ -197,7 +197,8 @@ sections:
         url: 'https://www.snowflake.com/en/'
       - type: Label
         label: Microsoft Azure
-        url: ''
+        url: >-
+          https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/search?ef_id=_k_Cj0KCQjw9-PNBhDfARIsABHN6-1RGvxzNlBOZEo3AstINrf71-kvD8oysegYIRGyAVfApfsmR572HssaAuAiEALw_wcB_k_&OCID=AIDcmm83ywnuwb_SEM_k_Cj0KCQjw9-PNBhDfARIsABHN6-1RGvxzNlBOZEo3AstINrf71-kvD8oysegYIRGyAVfApfsmR572HssaAuAiEALw_wcB&utm_source=google&utm_medium=cpc&utm_campaign=23555152752&utm_adgroup=196337742674&utm_term=kwd-11177476540&utm_content=797207935617&gad_source=1&gad_campaignid=23555152752&gclid=Cj0KCQjw9-PNBhDfARIsABHN6-1RGvxzNlBOZEo3AstINrf71-kvD8oysegYIRGyAVfApfsmR572HssaAuAiEALw_wcB
   - type: DividerSection
     styles:
       self:
