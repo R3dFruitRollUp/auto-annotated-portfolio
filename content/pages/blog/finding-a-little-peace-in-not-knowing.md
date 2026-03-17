@@ -28,6 +28,91 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 100
 author: content/data/team/Alexander-Floyd-Glenn.json
+bottomSections:
+  - type: FeaturedPostsSection
+    title: 'Posts:'
+    actions:
+      - type: Link
+        label: See all posts
+        altText: See all posts
+        url: /blog
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
+    posts:
+      - content/pages/blog/stop-fighting-your-spreadsheets.md
+      - content/pages/blog/NFLAnalysis.md
+    colors: colors-f
+    variant: variant-b
+    elementId: ''
+    showDate: true
+    showAuthor: false
+    showExcerpt: true
+    showFeaturedImage: false
+    showReadMoreLink: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        textAlign: left
+  - type: ContactSection
+    title: Contact Me
+    text: I'm look forward to hearing from you.
+    form:
+      type: FormBlock
+      title: Title of the form
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          hideLabel: true
+          placeholder: Your name
+          width: 1/2
+          isRequired: 'true'
+        - type: EmailFormControl
+          name: email
+          label: Name
+          hideLabel: true
+          placeholder: Your email
+          width: 1/2
+          isRequired: 'true'
+        - type: TextareaFormControl
+          name: message
+          label: Tell me about your project
+          hideLabel: true
+          placeholder: Tell me about your project
+          width: full
+          isRequired: true
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+          isRequired: 'false'
+      submitLabel: Send Message
+      elementId: contact-form
+      styles:
+        self:
+          textAlign: center
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-36
+          - pl-4
+          - pr-4
+        flexDirection: row
+        textAlign: center
 ---
 
 
