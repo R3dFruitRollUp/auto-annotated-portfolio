@@ -187,7 +187,7 @@ sections:
         url: ''
       - type: Label
         label: Tableau Prep
-        url: ''
+        url: 'https://www.tableau.com/products/prep'
       - type: Label
         label: Microsoft Fabric
         url: >-
