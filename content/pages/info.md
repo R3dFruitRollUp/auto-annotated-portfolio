@@ -202,6 +202,9 @@ sections:
       - type: Label
         label: Amazon Web Service (AWS)
         url: ''
+      - type: Label
+        label: Forecasting
+        url: ''
   - type: DividerSection
     styles:
       self:
