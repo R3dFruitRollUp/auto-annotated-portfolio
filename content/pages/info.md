@@ -180,7 +180,7 @@ sections:
         label: R
         url: 'https://www.r-project.org/'
       - type: Label
-        label: Swift
+        label: MSSQL
   - type: DividerSection
     styles:
       self:
