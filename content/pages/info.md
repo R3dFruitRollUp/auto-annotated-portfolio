@@ -177,7 +177,7 @@ sections:
         label: Python
         url: 'https://www.python.org/'
       - type: Label
-        label: C++
+        label: R
       - type: Label
         label: Swift
   - type: DividerSection
