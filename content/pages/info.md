@@ -29,6 +29,7 @@ sections:
       type: ImageBlock
       url: /images/IMG_3443.jpeg
       altText: Hero image
+      caption: Pictured playing pool
     styles:
       self:
         height: auto
