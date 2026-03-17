@@ -214,7 +214,7 @@ sections:
           https://medium.com/@saikumaresh/a-comprehensive-guide-to-schema-design-in-sql-principles-best-practices-and-a-practical-use-case-d10f87777cef
       - type: Label
         label: Project Management
-        url: ''
+        url: 'https://www.pmi.org/'
   - type: DividerSection
     styles:
       self:
