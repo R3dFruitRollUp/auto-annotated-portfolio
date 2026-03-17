@@ -165,14 +165,6 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: LinkedIn
-            url: 'https://www.linkedin.com/in/alexanderglenn'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
             label: CodePen
             url: 'https://codepen.io/'
         styles:
