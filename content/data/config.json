@@ -121,7 +121,7 @@
             "address": "",
             "addressAltText": ""
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "copyrightText": "",
         "styles": {
             "self": {
                 "width": "narrow",
