@@ -29,6 +29,38 @@ backgroundImage:
   opacity: 100
 author: content/data/team/Alexander-Floyd-Glenn.json
 bottomSections:
+  - type: FeaturedPostsSection
+    title: 'Posts:'
+    actions:
+      - type: Link
+        label: See all posts
+        altText: See all posts
+        url: /blog
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
+    posts:
+      - content/pages/blog/stop-fighting-your-spreadsheets.md
+      - content/pages/blog/NFLAnalysis.md
+    colors: colors-f
+    variant: variant-b
+    elementId: ''
+    showDate: true
+    showAuthor: false
+    showExcerpt: true
+    showFeaturedImage: false
+    showReadMoreLink: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        textAlign: left
   - type: ContactSection
     title: Contact Me
     text: I'm look forward to hearing from you.
@@ -81,38 +113,6 @@ bottomSections:
           - pr-4
         flexDirection: row
         textAlign: center
-  - type: FeaturedPostsSection
-    title: 'Posts:'
-    actions:
-      - type: Link
-        label: See all posts
-        altText: See all posts
-        url: /blog
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        elementId: ''
-    posts:
-      - content/pages/blog/stop-fighting-your-spreadsheets.md
-      - content/pages/blog/NFLAnalysis.md
-    colors: colors-f
-    variant: variant-b
-    elementId: ''
-    showDate: true
-    showAuthor: false
-    showExcerpt: true
-    showFeaturedImage: false
-    showReadMoreLink: true
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-24
-          - pb-24
-          - pl-4
-          - pr-4
-        textAlign: left
 ---
 
 
