@@ -63,6 +63,63 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
+  - type: LabelsSection
+    subtitle: 'Skills:'
+    items:
+      - type: Label
+        label: Tableau Desktop
+        url: 'https://www.tableau.com/products/desktop'
+      - type: Label
+        label: Microsoft Office
+      - type: Label
+        label: React
+      - type: Label
+        label: Next.js
+      - type: Label
+        label: Netlify
+      - type: Label
+        label: Python
+        url: 'https://www.python.org/'
+      - type: Label
+        label: R
+        url: 'https://www.r-project.org/'
+      - type: Label
+        label: MSSQL
+        url: 'https://www.microsoft.com/en-us/sql-server'
+      - type: Label
+        label: Power Platform
+        url: ''
+      - type: Label
+        label: Tableau Prep
+        url: 'https://www.tableau.com/products/prep'
+      - type: Label
+        label: Microsoft Fabric
+        url: >-
+          https://www.microsoft.com/en-us/microsoft-fabric/getting-started?ef_id=_k_Cj0KCQjw9-PNBhDfARIsABHN6-3xsADPIgHHfWSgl87rE-H6J7qye2KbqPlgvrxfjWiiMbEeqen7J84aAosDEALw_wcB_k_&OCID=AIDcmmz0ceskf1_SEM__k_Cj0KCQjw9-PNBhDfARIsABHN6-3xsADPIgHHfWSgl87rE-H6J7qye2KbqPlgvrxfjWiiMbEeqen7J84aAosDEALw_wcB_k_&gad_source=1&gad_campaignid=23517720931&gclid=Cj0KCQjw9-PNBhDfARIsABHN6-3xsADPIgHHfWSgl87rE-H6J7qye2KbqPlgvrxfjWiiMbEeqen7J84aAosDEALw_wcB
+      - type: Label
+        label: Snowflake
+        url: 'https://www.snowflake.com/en/'
+      - type: Label
+        label: Microsoft Azure
+        url: >-
+          https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/search?ef_id=_k_Cj0KCQjw9-PNBhDfARIsABHN6-1RGvxzNlBOZEo3AstINrf71-kvD8oysegYIRGyAVfApfsmR572HssaAuAiEALw_wcB_k_&OCID=AIDcmm83ywnuwb_SEM_k_Cj0KCQjw9-PNBhDfARIsABHN6-1RGvxzNlBOZEo3AstINrf71-kvD8oysegYIRGyAVfApfsmR572HssaAuAiEALw_wcB&utm_source=google&utm_medium=cpc&utm_campaign=23555152752&utm_adgroup=196337742674&utm_term=kwd-11177476540&utm_content=797207935617&gad_source=1&gad_campaignid=23555152752&gclid=Cj0KCQjw9-PNBhDfARIsABHN6-1RGvxzNlBOZEo3AstINrf71-kvD8oysegYIRGyAVfApfsmR572HssaAuAiEALw_wcB
+      - type: Label
+        label: Amazon Web Service (AWS)
+        url: ''
+      - type: Label
+        label: Forecasting
+        url: ''
+      - type: Label
+        label: Cursor IDE
+        url: ''
+      - type: Label
+        label: Schema Design
+        url: >-
+          https://medium.com/@saikumaresh/a-comprehensive-guide-to-schema-design-in-sql-principles-best-practices-and-a-practical-use-case-d10f87777cef
+      - type: Label
+        label: Project Management
+        url: 'https://www.pmi.org/'
+    colors: colors-f
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -88,46 +145,6 @@ sections:
           - pr-4
         textAlign: left
     subtitle: Projects
-  - type: LabelsSection
-    title: My Skills
-    subtitle: ''
-    items:
-      - type: Label
-        label: 'WEB 1, 2, 3'
-        url: ''
-      - type: Label
-        label: React
-        url: ''
-      - type: Label
-        label: Microsoft Office
-        url: ''
-      - type: Label
-        label: Next.js
-        url: ''
-      - type: Label
-        label: Netlify
-        url: ''
-      - type: Label
-        label: Pancakes
-        url: ''
-      - type: Label
-        label: C++
-        url: ''
-      - type: Label
-        label: Swift
-        url: ''
-    colors: colors-d
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-36
-          - pb-36
-          - pl-4
-          - pr-4
-        textAlign: left
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
