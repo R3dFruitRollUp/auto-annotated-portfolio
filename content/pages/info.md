@@ -99,7 +99,7 @@ sections:
     type: HeroSection
     actions:
       - type: Link
-        label: Learn more
+        label: "LinkTree! \U0001F334"
         altText: ''
         url: 'https://linktr.ee/AlexanderFloydGlenn'
         showIcon: false
