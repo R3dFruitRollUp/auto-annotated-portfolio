@@ -56,7 +56,10 @@ bottomSections:
         icon: arrowRight
         iconPosition: right
         elementId: ''
-    posts: []
+    posts:
+      - content/pages/blog/finding-a-little-peace-in-not-knowing.md
+      - content/pages/blog/stop-fighting-your-spreadsheets.md
+      - content/pages/blog/NFLAnalysis.md
     colors: colors-f
     variant: variant-b
     elementId: ''
