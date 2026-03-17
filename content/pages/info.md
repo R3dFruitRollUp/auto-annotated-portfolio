@@ -108,6 +108,14 @@ sections:
           - pr-4
         borderWidth: 1
         borderStyle: solid
+  - type: TextSection
+    variant: variant-a
+    subtitle: Alexander Floyd Glenn
+    colors: colors-f
+    text: |+
+      #### [**Floydg@umich.edu**](mailto:floydg@umich.edu)
+
+    title: Experience and Education
   - type: LabelsSection
     colors: colors-f
     subtitle: 'Skills:'
@@ -165,14 +173,6 @@ sections:
       - type: Label
         label: Project Management
         url: 'https://www.pmi.org/'
-  - type: TextSection
-    variant: variant-a
-    subtitle: Alexander Floyd Glenn
-    colors: colors-f
-    text: |+
-      #### [**Floydg@umich.edu**](mailto:floydg@umich.edu)
-
-    title: Experience and Education
   - type: DividerSection
     styles:
       self:
