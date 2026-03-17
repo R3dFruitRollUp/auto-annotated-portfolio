@@ -212,6 +212,9 @@ sections:
         label: Schema Design
         url: >-
           https://medium.com/@saikumaresh/a-comprehensive-guide-to-schema-design-in-sql-principles-best-practices-and-a-practical-use-case-d10f87777cef
+      - type: Label
+        label: Project Management
+        url: ''
   - type: DividerSection
     styles:
       self:
