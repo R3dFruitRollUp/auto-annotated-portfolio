@@ -120,6 +120,7 @@ bottomSections:
         textAlign: left
 socialImage: /images/1761322480544.jpeg
 metaTags: []
+metaDescription: Excel
 ---
 ##### **Most of the analytics world secretly runs on Excel.**
 
