@@ -57,7 +57,8 @@ bottomSections:
         icon: arrowRight
         iconPosition: right
         elementId: ''
-    projects: []
+    projects:
+      - content/pages/projects/NFL.md
     colors: colors-f
     variant: variant-a
     elementId: ''
