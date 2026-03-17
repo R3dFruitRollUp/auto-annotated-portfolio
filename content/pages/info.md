@@ -268,8 +268,9 @@ sections:
     variant: variant-a
     subtitle: 'Contact:'
     colors: colors-f
-    text: |
-      [Floydg@umich.edu](mailto:floydg@umich.edu)
+    text: |+
+      #### [**Floydg@umich.edu**](mailto:floydg@umich.edu)
+
   - type: DividerSection
     styles:
       self:
