@@ -116,6 +116,17 @@ sections:
       #### [**Floydg@umich.edu**](mailto:floydg@umich.edu)
 
     title: Experience and Education
+  - type: DividerSection
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-8
+          - pb-8
+          - pl-4
+          - pr-4
+        borderWidth: 1
+        borderStyle: solid
   - type: LabelsSection
     colors: colors-f
     subtitle: 'Skills:'
@@ -173,17 +184,6 @@ sections:
       - type: Label
         label: Project Management
         url: 'https://www.pmi.org/'
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        borderWidth: 1
-        borderStyle: solid
   - type: FeaturedItemsSection
     colors: colors-f
     items:
