@@ -61,7 +61,7 @@ bottomSections:
           - pr-4
         textAlign: left
   - type: ContactSection
-    title: Contact Me Please
+    title: 'Please, Contact Me'
     text: |
       I'll look forward to hearing from you.
     form:
