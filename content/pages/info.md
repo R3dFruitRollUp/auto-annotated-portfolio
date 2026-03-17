@@ -210,7 +210,8 @@ sections:
         url: ''
       - type: Label
         label: Schema Design
-        url: ''
+        url: >-
+          https://medium.com/@saikumaresh/a-comprehensive-guide-to-schema-design-in-sql-principles-best-practices-and-a-practical-use-case-d10f87777cef
   - type: DividerSection
     styles:
       self:
