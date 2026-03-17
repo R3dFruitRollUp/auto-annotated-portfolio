@@ -62,8 +62,7 @@ bottomSections:
         textAlign: left
   - type: ContactSection
     title: 'Please, Contact Me'
-    text: |
-      I'll look forward to hearing from you.
+    text: "I'll look forward to hearing from you. \U0001F4AF\n"
     form:
       type: FormBlock
       title: Title of the form
