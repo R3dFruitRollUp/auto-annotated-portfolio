@@ -286,26 +286,37 @@ sections:
     items:
       - type: FeaturedItem
         subtitle: 'Experience:'
-        text: |-
+        text: >+
           **Current**
 
-          * freelance @freelance.me
+
+          *   Business Intelligence Solutions Engineer - Huntington Bank
+
 
           **2018-2021**
 
-          * fullstack at this startup
+
+          *   Business Analyst (Phone Bank For All Lines of Business -
+          Huntington Bank
+
 
           **2015**
 
-          * senior front-end at this place
+
+          *   Inbound Phone Bank - Personal Banker - Huntington Bank
+
 
           **2013**
 
-          * intern developer at a big company
+
+          *   Online Banking/Customer Support Banker - Huntington Bank
+
 
           **2011**
 
-          * flipping burgers
+
+          *   Forward Motion Marketing - Sales Supervisor
+
         styles:
           self:
             textAlign: left
