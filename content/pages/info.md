@@ -166,9 +166,9 @@ sections:
         label: Tableau Desktop
         url: 'https://www.tableau.com/products/desktop'
       - type: Label
-        label: React
-      - type: Label
         label: Microsoft Office
+      - type: Label
+        label: React
       - type: Label
         label: Next.js
       - type: Label
