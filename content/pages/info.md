@@ -195,6 +195,9 @@ sections:
       - type: Label
         label: Snowflake
         url: ''
+      - type: Label
+        label: Microsoft Azure
+        url: ''
   - type: DividerSection
     styles:
       self:
