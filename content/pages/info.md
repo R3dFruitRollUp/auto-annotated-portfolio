@@ -165,7 +165,7 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Discord
+            label: "Linktree!\U0001F334\U0001F937‍♂️"
             url: 'https://linktr.ee/AlexanderFloydGlenn'
         styles:
           self:
