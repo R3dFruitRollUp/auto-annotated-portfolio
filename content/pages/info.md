@@ -183,6 +183,9 @@ sections:
         label: MSSQL
         url: 'https://www.microsoft.com/en-us/sql-server'
       - type: Label
+        label: Power Platform
+        url: ''
+      - type: Label
         label: Tableau Prep
         url: ''
   - type: DividerSection
