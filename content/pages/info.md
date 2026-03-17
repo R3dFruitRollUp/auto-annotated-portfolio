@@ -338,16 +338,7 @@ sections:
         styles:
           self:
             textAlign: left
-        actions:
-          - type: Button
-            label: Click for linktree
-            altText: ''
-            url: 'https://linktr.ee/AlexanderFloydGlenn'
-            showIcon: true
-            icon: chevronRight
-            iconPosition: left
-            style: secondary
-            elementId: '199'
+        actions: []
     columns: 2
     spacingX: 60
     spacingY: 60
