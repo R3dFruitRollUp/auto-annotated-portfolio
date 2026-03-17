@@ -119,10 +119,7 @@ bottomSections:
         flexDirection: row
         textAlign: left
 socialImage: /images/1761322480544.jpeg
-metaTags:
-  - type: MetaTag
-    property: 'og:title'
-    content: ''
+metaTags: []
 ---
 ##### **Most of the analytics world secretly runs on Excel.**
 
