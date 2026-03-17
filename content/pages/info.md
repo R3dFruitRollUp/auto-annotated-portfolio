@@ -322,18 +322,19 @@ sections:
             textAlign: left
       - type: FeaturedItem
         subtitle: 'Education:'
-        text: |-
-          **2015-2018**
+        text: |+
+          **Graduation Date 2024 - University of Michigan Flint**
 
-          * ba computer sciense at a semi fancy school
+          *   BA Finance/Economics
 
-          **2014**
+          **
+          Life Long Learner**
 
-          * react certificate somewhere
+          *   Extensive training on/off job in computer science
+          *   Completed 100's of udemy courses in my career
+          *   PMP Coursework that's proved out to projects at national scale
+          *   CFA I in training (2026)
 
-          **2011**
-
-          * my highschool
         styles:
           self:
             textAlign: left
