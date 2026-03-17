@@ -188,6 +188,9 @@ sections:
       - type: Label
         label: Tableau Prep
         url: ''
+      - type: Label
+        label: Microsoft Fabric
+        url: ''
   - type: DividerSection
     styles:
       self:
