@@ -343,7 +343,7 @@ sections:
             label: Click for linktree
             altText: ''
             url: 'https://linktr.ee/AlexanderFloydGlenn'
-            showIcon: false
+            showIcon: true
             icon: arrowRight
             iconPosition: right
             style: primary
