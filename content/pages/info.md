@@ -165,14 +165,6 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: GitHub
-            url: 'https://github.com/r3dfruitrollup'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
             label: Twitter
             url: 'https://twitter.com/datos_extremos'
         styles:
