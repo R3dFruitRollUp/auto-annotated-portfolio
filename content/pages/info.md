@@ -346,7 +346,7 @@ sections:
             showIcon: true
             icon: chevronRight
             iconPosition: left
-            style: primary
+            style: secondary
             elementId: ''
     columns: 2
     spacingX: 60
