@@ -269,7 +269,7 @@ sections:
     subtitle: 'Contact:'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      [Floydg@umich.edu](mailto:floydg@umich.edu)
   - type: DividerSection
     styles:
       self:
