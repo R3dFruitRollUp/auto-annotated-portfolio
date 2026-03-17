@@ -61,7 +61,7 @@ bottomSections:
           - pr-4
         textAlign: left
   - type: ContactSection
-    title: 'Please, Contact Me'
+    title: "Please, Contact Me \U0001F4E7"
     text: "I'll look forward to hearing from you. \U0001F4AF\n"
     form:
       type: FormBlock
