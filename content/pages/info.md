@@ -181,6 +181,7 @@ sections:
         url: 'https://www.r-project.org/'
       - type: Label
         label: MSSQL
+        url: 'https://www.microsoft.com/en-us/sql-server'
   - type: DividerSection
     styles:
       self:
